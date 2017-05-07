@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="tbCollectionViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="ShiJinCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="105" height="73"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beauty3" translatesAutoresizingMaskIntoConstraints="NO" id="1nE-OE-H9w">
+                        <rect key="frame" x="0.0" y="0.0" width="105" height="73"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.17999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R1W-lu-qLu" userLabel="蒙板View">
+                        <rect key="frame" x="0.0" y="0.0" width="105" height="73"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2U-EL-9KB">
+                        <rect key="frame" x="5" y="5" width="20" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Gw9-sV-xwu"/>
+                            <constraint firstAttribute="width" constant="20" id="Pmb-lR-szE"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="gerenzhuye_shanchu"/>
+                    </button>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCN-dM-Agr" userLabel="labelBackView">
+                        <rect key="frame" x="0.0" y="54" width="105" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="f75-rY-und"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="门面(8)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlC-4v-vnL">
+                        <rect key="frame" x="0.0" y="54" width="105" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="9tY-Wx-mCq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="IlC-4v-vnL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2bm-lz-pZG"/>
+                <constraint firstItem="R1W-lu-qLu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5Qb-Nh-Dmj"/>
+                <constraint firstItem="1nE-OE-H9w" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6L7-Zi-eYl"/>
+                <constraint firstItem="R1W-lu-qLu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6fa-m5-Kvf"/>
+                <constraint firstItem="1nE-OE-H9w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6mA-Y4-1LN"/>
+                <constraint firstAttribute="trailing" secondItem="R1W-lu-qLu" secondAttribute="trailing" id="Bd0-un-6F2"/>
+                <constraint firstItem="I2U-EL-9KB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="DD5-Dh-V5I"/>
+                <constraint firstAttribute="trailing" secondItem="1nE-OE-H9w" secondAttribute="trailing" id="EbB-9u-59G"/>
+                <constraint firstItem="I2U-EL-9KB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="J4y-6B-lFj"/>
+                <constraint firstAttribute="trailing" secondItem="fCN-dM-Agr" secondAttribute="trailing" id="Rsp-vw-l3Z"/>
+                <constraint firstAttribute="bottom" secondItem="1nE-OE-H9w" secondAttribute="bottom" id="Unw-qa-JRp"/>
+                <constraint firstAttribute="bottom" secondItem="R1W-lu-qLu" secondAttribute="bottom" id="fg7-OU-TQc"/>
+                <constraint firstAttribute="bottom" secondItem="fCN-dM-Agr" secondAttribute="bottom" id="jBm-ba-NLt"/>
+                <constraint firstAttribute="bottom" secondItem="IlC-4v-vnL" secondAttribute="bottom" id="qxs-Rq-81r"/>
+                <constraint firstItem="fCN-dM-Agr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wdJ-AT-6lp"/>
+                <constraint firstAttribute="trailing" secondItem="IlC-4v-vnL" secondAttribute="trailing" id="yl1-9c-Hlq"/>
+            </constraints>
+            <size key="customSize" width="105" height="73"/>
+            <connections>
+                <outlet property="deleteBtn" destination="I2U-EL-9KB" id="Mny-uP-8jk"/>
+                <outlet property="iconImageView" destination="1nE-OE-H9w" id="hbq-K9-XGI"/>
+                <outlet property="labelBackView" destination="fCN-dM-Agr" id="7cb-Xh-Pvm"/>
+                <outlet property="menBanImageView" destination="R1W-lu-qLu" id="CYj-Oa-1mt"/>
+                <outlet property="xiangCeNameLabel" destination="IlC-4v-vnL" id="kJO-Hr-c49"/>
+            </connections>
+            <point key="canvasLocation" x="172.5" y="221.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="beauty3" width="200" height="200"/>
+        <image name="gerenzhuye_shanchu" width="19" height="19"/>
+    </resources>
+</document>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="yunDongTableViewCell" rowHeight="292" id="knO-jc-JDn" customClass="yunDongTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="knO-jc-JDn" id="lg8-WV-eLY">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xZ-e0-L4J" userLabel="ButtonView">
+                        <rect key="frame" x="0.0" y="40" width="103" height="83"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biaoji_gerenzhuye_bushubeijing" translatesAutoresizingMaskIntoConstraints="NO" id="xGP-z9-bkl">
+                                <rect key="frame" x="0.0" y="0.0" width="103" height="83"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yd2-sm-kkK" customClass="footView">
+                                <rect key="frame" x="0.0" y="0.0" width="103" height="83"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xGP-z9-bkl" firstAttribute="leading" secondItem="2xZ-e0-L4J" secondAttribute="leading" id="17G-4O-b0E"/>
+                            <constraint firstAttribute="trailing" secondItem="yd2-sm-kkK" secondAttribute="trailing" id="KGx-DE-klv"/>
+                            <constraint firstAttribute="bottom" secondItem="yd2-sm-kkK" secondAttribute="bottom" id="QIB-WA-wzl"/>
+                            <constraint firstAttribute="height" constant="82.5" id="SXU-Tr-jcP"/>
+                            <constraint firstItem="yd2-sm-kkK" firstAttribute="top" secondItem="2xZ-e0-L4J" secondAttribute="top" id="ZPc-5b-hq7"/>
+                            <constraint firstAttribute="bottom" secondItem="xGP-z9-bkl" secondAttribute="bottom" id="bdW-Jb-23x"/>
+                            <constraint firstItem="yd2-sm-kkK" firstAttribute="leading" secondItem="2xZ-e0-L4J" secondAttribute="leading" id="hFk-C2-6QN"/>
+                            <constraint firstAttribute="width" constant="102.5" id="iul-7y-bBQ"/>
+                            <constraint firstItem="xGP-z9-bkl" firstAttribute="top" secondItem="2xZ-e0-L4J" secondAttribute="top" id="koE-Cx-Uie"/>
+                            <constraint firstAttribute="trailing" secondItem="xGP-z9-bkl" secondAttribute="trailing" id="u1K-X0-PSr"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ykI-wE-jsT" customClass="BigShuZiLabelYunDongCellView">
+                        <rect key="frame" x="142" y="45" width="184" height="85"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="184" id="ELs-BF-Iw9"/>
+                            <constraint firstAttribute="height" constant="85" id="wkL-Aq-8j5"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pNF-hi-q45" customClass="ImageAndLabelBuShuView">
+                        <rect key="frame" x="0.0" y="148" width="112" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="nGQ-vC-FtW"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7P5-od-zIl" customClass="ImageAndLabelBuShuView">
+                        <rect key="frame" x="112" y="148" width="112" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="9J1-1K-SUE"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="re8-Bk-np6" customClass="ImageAndLabelBuShuView">
+                        <rect key="frame" x="224" y="148" width="112" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="tkb-bN-AtN"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thF-sn-qGK">
+                        <rect key="frame" x="23" y="196" width="291" height="3"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="3.5" id="OH7-89-fFh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ykI-wE-jsT" firstAttribute="leading" secondItem="2xZ-e0-L4J" secondAttribute="trailing" constant="39" id="2qS-Wh-a8j"/>
+                    <constraint firstItem="2xZ-e0-L4J" firstAttribute="leading" secondItem="lg8-WV-eLY" secondAttribute="leading" id="4GO-6g-Chy"/>
+                    <constraint firstItem="re8-Bk-np6" firstAttribute="width" secondItem="pNF-hi-q45" secondAttribute="width" id="GTY-zU-Hn1"/>
+                    <constraint firstItem="pNF-hi-q45" firstAttribute="leading" secondItem="lg8-WV-eLY" secondAttribute="leading" id="IRF-C7-LHD"/>
+                    <constraint firstItem="7P5-od-zIl" firstAttribute="width" secondItem="pNF-hi-q45" secondAttribute="width" id="Iwo-kz-9mp"/>
+                    <constraint firstAttribute="trailing" secondItem="thF-sn-qGK" secondAttribute="trailing" constant="22.5" id="ORf-HG-JCA"/>
+                    <constraint firstAttribute="bottom" secondItem="thF-sn-qGK" secondAttribute="bottom" id="OqD-Ix-HeK"/>
+                    <constraint firstItem="pNF-hi-q45" firstAttribute="centerY" secondItem="re8-Bk-np6" secondAttribute="centerY" id="Pe9-bC-TeP"/>
+                    <constraint firstItem="thF-sn-qGK" firstAttribute="leading" secondItem="lg8-WV-eLY" secondAttribute="leading" constant="22.5" id="TBB-fl-QLm"/>
+                    <constraint firstItem="re8-Bk-np6" firstAttribute="leading" secondItem="7P5-od-zIl" secondAttribute="trailing" id="Ynh-gY-aqj"/>
+                    <constraint firstItem="pNF-hi-q45" firstAttribute="top" secondItem="2xZ-e0-L4J" secondAttribute="bottom" constant="25" id="ZIP-ov-9yA"/>
+                    <constraint firstItem="7P5-od-zIl" firstAttribute="leading" secondItem="pNF-hi-q45" secondAttribute="trailing" id="aGK-hV-iJf"/>
+                    <constraint firstItem="pNF-hi-q45" firstAttribute="centerY" secondItem="7P5-od-zIl" secondAttribute="centerY" id="bCj-YA-aAX"/>
+                    <constraint firstItem="2xZ-e0-L4J" firstAttribute="top" secondItem="lg8-WV-eLY" secondAttribute="top" constant="40" id="bUW-Lh-eQc"/>
+                    <constraint firstAttribute="trailing" secondItem="re8-Bk-np6" secondAttribute="trailing" id="sFO-au-b0w"/>
+                    <constraint firstItem="ykI-wE-jsT" firstAttribute="top" secondItem="lg8-WV-eLY" secondAttribute="top" constant="45" id="upl-a6-YtX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="BigNumberLabelView" destination="ykI-wE-jsT" id="Pye-ls-Fkw"/>
+                <outlet property="fengGeXianView" destination="thF-sn-qGK" id="Tzd-Ka-PLh"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="137"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="biaoji_gerenzhuye_bushubeijing" width="103" height="83"/>
+    </resources>
+</document>

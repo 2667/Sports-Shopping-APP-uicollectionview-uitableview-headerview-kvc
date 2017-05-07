@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DuiHuaWoTableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DuiHuaWoTableViewCell" rowHeight="336" id="KGk-i7-Jjw" customClass="DuiHuaWoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新年快乐,恭喜发财!!恭喜发财!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwW-n8-iBe">
+                        <rect key="frame" x="10" y="4.5" width="297" height="50"/>
+                        <color key="backgroundColor" red="0.37010843173281793" green="0.66666666666666663" blue="0.11013738845161228" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s23-Rg-AwJ">
+                        <rect key="frame" x="322" y="4" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="VNH-br-nY3"/>
+                            <constraint firstAttribute="width" constant="50" id="y3X-b9-bsP"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="beauty5"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s23-Rg-AwJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6VD-4R-Siu"/>
+                    <constraint firstAttribute="trailing" secondItem="s23-Rg-AwJ" secondAttribute="trailing" constant="10" id="BJd-Ye-L4T"/>
+                    <constraint firstItem="FwW-n8-iBe" firstAttribute="centerY" secondItem="s23-Rg-AwJ" secondAttribute="centerY" id="VbH-bl-VzX"/>
+                    <constraint firstItem="FwW-n8-iBe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ayj-dD-HfY"/>
+                    <constraint firstItem="s23-Rg-AwJ" firstAttribute="leading" secondItem="FwW-n8-iBe" secondAttribute="trailing" constant="15" id="e0g-eL-lHx"/>
+                    <constraint firstItem="FwW-n8-iBe" firstAttribute="height" secondItem="s23-Rg-AwJ" secondAttribute="height" id="yGB-Wh-EqR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="guanzuIcon" destination="s23-Rg-AwJ" id="Yxy-CK-gq4"/>
+                <outlet property="nameLabel" destination="FwW-n8-iBe" id="QoQ-J9-6sv"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="198"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="beauty5" width="250" height="250"/>
+    </resources>
+</document>

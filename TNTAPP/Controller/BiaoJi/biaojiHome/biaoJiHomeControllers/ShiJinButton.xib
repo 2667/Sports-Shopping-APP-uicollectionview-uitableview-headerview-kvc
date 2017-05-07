@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShiJinButton">
+            <connections>
+                <outlet property="DeleteBtn" destination="Bvt-jj-pqi" id="OjQ-vg-hLd"/>
+                <outlet property="button" destination="lTJ-f0-2md" id="c1X-lh-eGk"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ZAj-xt-DaR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTJ-f0-2md">
+                    <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="beauty1"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="门面(2)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MS7-fN-WPM">
+                    <rect key="frame" x="0.0" y="54" width="85" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="iev-cj-Nbe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bvt-jj-pqi">
+                    <rect key="frame" x="5" y="5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="nmi-CB-rte"/>
+                        <constraint firstAttribute="height" constant="20" id="vAQ-lh-Jdm"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="gerenzhuye_shanchu"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bvt-jj-pqi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="2WE-UZ-cpj"/>
+                <constraint firstItem="lTJ-f0-2md" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AKr-kI-QkC"/>
+                <constraint firstItem="MS7-fN-WPM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="M8Q-x6-TRP"/>
+                <constraint firstItem="lTJ-f0-2md" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UQf-lG-QLi"/>
+                <constraint firstAttribute="bottom" secondItem="lTJ-f0-2md" secondAttribute="bottom" id="bQ4-7K-fQi"/>
+                <constraint firstItem="Bvt-jj-pqi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="iRa-Vf-nxt"/>
+                <constraint firstAttribute="trailing" secondItem="lTJ-f0-2md" secondAttribute="trailing" id="qaa-mh-mTI"/>
+                <constraint firstAttribute="trailing" secondItem="MS7-fN-WPM" secondAttribute="trailing" id="vfu-fM-IFA"/>
+                <constraint firstAttribute="bottom" secondItem="MS7-fN-WPM" secondAttribute="bottom" constant="10" id="ydn-OZ-D3P"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-72.5" y="-265.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="beauty1" width="200" height="200"/>
+        <image name="gerenzhuye_shanchu" width="19" height="19"/>
+    </resources>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageAndLabelBuShuView">
+            <connections>
+                <outlet property="DownLabel" destination="1Ci-Bc-yFO" id="5Aj-xY-ZXh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ZAj-xt-DaR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="83" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.9公里" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ci-Bc-yFO">
+                    <rect key="frame" x="0.0" y="22" width="83" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="4iK-n6-aua"/>
+                        <constraint firstAttribute="width" constant="83" id="bId-hw-gI8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biaoji_gerenzhuye_jvlitubiao_1" translatesAutoresizingMaskIntoConstraints="NO" id="9P7-Zs-AI1">
+                    <rect key="frame" x="33" y="0.0" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="rv3-wy-PRI"/>
+                        <constraint firstAttribute="height" constant="17" id="zze-in-8SK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9P7-Zs-AI1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VxC-Fh-ww3"/>
+                <constraint firstItem="1Ci-Bc-yFO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gKy-Cy-lSv"/>
+                <constraint firstItem="1Ci-Bc-yFO" firstAttribute="top" secondItem="9P7-Zs-AI1" secondAttribute="bottom" constant="5" id="iQq-3h-LBv"/>
+                <constraint firstItem="9P7-Zs-AI1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vT8-Yc-DEJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-72.5" y="-265"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="biaoji_gerenzhuye_jvlitubiao_1" width="13" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="a93-wt-BAT" customClass="XiangCeHeader2View">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="41"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1月25日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H13-DZ-PHy">
+                    <rect key="frame" x="10" y="10" width="120" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="dUW-K9-H5f"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="来自标记" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQF-r2-vfh">
+                    <rect key="frame" x="261" y="10" width="80" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Fk0-FU-F3C"/>
+                        <constraint firstAttribute="width" constant="80" id="rq7-Sv-hom"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="H13-DZ-PHy" firstAttribute="centerY" secondItem="FQF-r2-vfh" secondAttribute="centerY" id="85H-YC-YD6"/>
+                <constraint firstItem="FQF-r2-vfh" firstAttribute="top" secondItem="a93-wt-BAT" secondAttribute="top" constant="10" id="8VE-G6-O1g"/>
+                <constraint firstItem="H13-DZ-PHy" firstAttribute="height" secondItem="FQF-r2-vfh" secondAttribute="height" id="Jg9-cn-zCQ"/>
+                <constraint firstAttribute="bottom" secondItem="FQF-r2-vfh" secondAttribute="bottom" constant="10" id="OFn-C1-y36"/>
+                <constraint firstAttribute="trailing" secondItem="FQF-r2-vfh" secondAttribute="trailing" constant="10" id="baL-Wl-Q4q"/>
+                <constraint firstItem="H13-DZ-PHy" firstAttribute="leading" secondItem="a93-wt-BAT" secondAttribute="leading" constant="10" id="wZ7-FT-jLN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="180.5" y="-131"/>
+        </view>
+    </objects>
+</document>

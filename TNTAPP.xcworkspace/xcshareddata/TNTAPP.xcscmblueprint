@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++4478A54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++9C5A8E8" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C1E293D" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++F08740E" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++4478A54" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C63F64B" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++BAF3AE5" : 0,
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++CE9F9D5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C52570D-E3D8-41E5-B3FC-D9564CC70491",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++9C5A8E8" : "YOUXINGBAO%20t%E5%9C%88%E5%AD%90%E9%A1%B5%E9%9D%A2%E8%A7%86%E9%A2%91%E9%83%A8%E5%88%86%E5%9B%BE%E7%89%87%E4%B8%8D%E6%AD%A3%E5%B8%B8%2051\/",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C1E293D" : "YOUXINGBAO%20%E5%85%A8%E9%83%A8%E8%B5%8B%E5%80%BC%E5%88%B0uitableview%E5%B1%9E%E6%80%A7%2053%E5%89%AF%E6%9C%AC2\/TNTAPP\/YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46\/",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++F08740E" : "YOUXINGBAO%20t%E8%BF%90%E5%8A%A8%E8%AF%A6%E6%83%85%E9%A1%B5%E9%9D%A2%2052\/",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++4478A54" : "YOUXINGBAO%2053%20%E6%9B%B4%E6%96%B0%E4%B8%89%E6%96%B9%E6%8F%92%E4%BB%B6%2055\/TNTAPP\/YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46\/",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C63F64B" : "YOUXINGBAO%20t%E8%BF%90%E5%8A%A8%E8%AF%A6%E6%83%85%E9%A1%B5%E9%9D%A2%2052\/TNTAPP\/YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46\/",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++BAF3AE5" : "YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46",
+    "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++CE9F9D5" : "YOUXINGBAO%20t%E5%9C%88%E5%AD%90%E9%A1%B5%E9%9D%A2%E8%A7%86%E9%A2%91%E9%83%A8%E5%88%86%E5%9B%BE%E7%89%87%E4%B8%8D%E6%AD%A3%E5%B8%B8%2051\/TNTAPP\/YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TNTAPP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TNTAPP.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++4478A54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++9C5A8E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++BAF3AE5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C1E293D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++C63F64B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++CE9F9D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/good66\/YOUXINGBAO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA+++F08740E"
+    }
+  ]
+}

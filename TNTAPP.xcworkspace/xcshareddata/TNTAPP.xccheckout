@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C52570D-E3D8-41E5-B3FC-D9564CC70491</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TNTAPP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA</key>
+		<string>https://git.oschina.net/good66/YOUXINGBAO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TNTAPP.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA</key>
+		<string>..TNTAPP/YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/good66/YOUXINGBAO.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YOUXINGBAO-t%E5%95%86%E5%AE%B6%E4%B8%AD%E5%BF%83%20,%E5%95%86%E5%AE%B6%E5%AE%9E%E6%99%AF%E9%A1%B5%E9%9D%A2-46</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F78E0B11C165C5C733E8EB5FE91DBF90D6E4DABA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YOUXINGBAO%20t%E5%9C%88%E5%AD%90%E9%A1%B5%E9%9D%A2%E8%A7%86%E9%A2%91%E9%83%A8%E5%88%86%E5%9B%BE%E7%89%87%E4%B8%8D%E6%AD%A3%E5%B8%B8%2051</string>
+		</dict>
+	</array>
+</dict>
+</plist>

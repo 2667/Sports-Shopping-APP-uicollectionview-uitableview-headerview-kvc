@@ -1,0 +1,102 @@
+//
+//  PrefixHeader.pch
+//  TNTAPP
+//
+//  Created by tnt_mdf on 2016/12/19.
+//  Copyright © 2016年 TNT. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__ //  #ifdef __OBJC__ 和 #endif中的内容只会出现在OC源文件中
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MyTabBar.h"
+#import "SCGIFImageView.h"
+#import "Single.h"
+
+//图表
+#import "iOS-Echarts.h"
+#import "PYEchartsView.h"
+#import "PYOption.h"
+#import "PYZoomEchartsView.h"
+
+//计步
+#import <CoreMotion/CoreMotion.h>
+
+
+
+//年月日和城市的PickView
+#import "ZHPickView.h"
+#import "HZAreaPickerView.h"
+
+
+//地图
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+
+//字体大小适配
+#import "UIView+FontSize.h"
+
+
+
+#import "UIBarButtonItem+XMGExtension.h"
+#import "UIView+XMGExtension.h"
+#import "UITextField+XMGExtension.h"
+#import "NSObject+XMGExtension.h"
+#import "XMGConst.h"
+#import "UIImage+XMGExtension.h"
+#import "UIImageView+XMGExtension.h"
+#import "NSString+XMGExtension.h"
+#import "NSDate+XMGExtension.h"
+#import "XMGStatusBarViewController.h"
+
+#ifdef DEBUG // 开发调试阶段
+#define TNTLog(...) NSLog(__VA_ARGS__)
+#else // 打包发布阶段
+#define TNTLog(...)
+#endif
+
+#define TNTLogFuc TNTLog(@"%s", __func__);
+
+#define TNTWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/xiaomage/Desktop/%@.plist", filename] atomically:YES];
+
+#define TNTColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define TNTColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define TNTRandomColor TNTColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define TNTGrayColor(v) TNTColor(v, v, v)
+#define TNTCommonBgColor TNTGrayColor(206)
+
+#define SCREEN_HEIGHT                      [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH                       [UIScreen mainScreen].bounds.size.width
+
+//--其中x，y是设备分辨率。
+#define iPhone(x,y)        ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(x, y), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#endif /* PrefixHeader_pch */
+
+#endif
+
+//屏幕高度
+#define APPheight ([UIScreen mainScreen].bounds.size.height)
+
+//屏幕宽度
+#define APPwidth ([UIScreen mainScreen].bounds.size.width)
+
+//文字颜色_黑色
+#define WenZiHeiColor [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0]
+
+//文字颜色_深灰
+#define WenZiShenHueiColor [UIColor colorWithRed:102/255.0 green:102/255.0 blue:102/255.0 alpha:1.0]
+
+//文字颜色_浅灰
+#define WenZiQiangHueiColor [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1.0]
+
+
+//颜色
+#define ColorCanShu(r, g, b ,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
